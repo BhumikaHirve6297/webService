@@ -1,8 +1,8 @@
 # Web-Service 
 Web-Service is framework for making ease in website creation.
-# Install
+## Install
 Download the jar and place it in the ../WEB-INF/lib folder of your web application.
-# Usage
+## Usage
 for security check a class must be created which implements interface named as SecureInterface ,and should override the methods :
 ```python
 public void setSecure()
