@@ -92,7 +92,7 @@ between <web-app> tag.
 ```
 Request should only contain JSON,no other type of request is supported by the framework and first parameter of the method should be of classtype in which json needs to be converted .
 Naming convention should be followed the last of that class must ends with Bean and the classes should be placed in the bean folder. Given in the above example(StudentBean).  
-6)Following is the discription of the annotation:-
+Following is the discription of the annotation:-
 @Path:-It contains the request part for which request has been sent for class or method.
 @Forward:-request will be forwarded to the page(jsp/html) or other service mentioned in the key. 
 @Secure:-class name with package which implements the SecureInterface.
