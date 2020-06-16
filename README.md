@@ -59,7 +59,7 @@ public void fileToUpload(File[] files)
 }
 }
 ```
-Following code should be placed in the WEB-INF folder of your web-application
+Following code should be placed in web.xml of WEB-INF folder of your web-application
 between <web-app> tag.
 ```python
 <web-app>
